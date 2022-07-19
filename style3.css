@@ -1,0 +1,45 @@
+ul.info {}
+
+div.info {}
+
+ul.info>li {
+
+}
+
+ul.info>li li:nth-child(2) {
+    list-style: none;
+}
+
+ol li a {
+    text-decoration: none;
+}
+
+
+ol li a[target="_blank"] {
+    color: rgb(0, 128, 0);
+}
+
+ol li a[href=href="http://www.google.com"] {
+    background-color: rgb(125, 175, 240);
+}
+
+ol li a[href*="google"] {
+    background-color: pink;
+}
+
+/* ol li a[href^="https"] {
+    color: blueviolet;
+} */
+
+ol li a[href$=".com.au"] {
+    background-color: hsla(272, 76%, 53%, 0.39);
+}
+
+ol li a[href*="google"][href$=".com.au"] {
+    font-style: italic;
+}
+
+/* ol li a[href*="google"],
+ol li a[href$=".com.au"] {
+    font-style: italic;
+} */
